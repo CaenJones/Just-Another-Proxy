@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
-font-family: Roboto;
+  font-family: Roboto;
 }
 
 body {
-  background: #202124;
+  background: #000; /* Changed to #000 to match the website design */
 }
 
 .title {
   margin: 0;
   margin-top: 220px;
   font-size: 80px;
-  color: #2493ff;
+  color: #06adbc; /* Changed to #06adbc to match the website design */
 }
 
 .searchbox {
@@ -27,7 +27,7 @@ body {
 
 #search {
   background: transparent;
-  border: 1px solid #303134;
+  border: 1px solid #06adbc; /* Changed to #06adbc to match the website design */
   border-radius: 24px;
   height: 46px;
   width: 584px;
@@ -35,13 +35,10 @@ body {
   padding-left: 47px;
   font-size: 16px;
   padding-bottom: 2px;
-  color: #2493ff;
+  color: #06adbc; /* Changed to #06adbc to match the website design */
 }
 
-#search:hover {
-  box-shadow: 0 1px 6px 0 #171717;
-}
-
+#search:hover,
 #search:focus {
   box-shadow: 0 1px 6px 0 #171717;
 }
@@ -51,5 +48,5 @@ body {
 }
 
 ::placeholder {
-  color: #2493ff;
+  color: #06adbc; /* Changed to #06adbc to match the website design */
 }

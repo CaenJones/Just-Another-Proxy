@@ -5,7 +5,7 @@
 }
 
 body {
-  background: #202124;
+  background: #000; /* Changed from #202124 to #000 to match the website design */
   overflow: hidden;
 }
 
@@ -17,11 +17,11 @@ body {
   bottom: 0;
   border: none;
   z-index: 10;
-  background: #202124;
+  background: #000; /* Changed from #202124 to #000 to match the website design */
 }
 
 .urlbar {
-  background: #2493ff;
+  background: #06adbc; /* Changed to match the navigation link color in the website design */
   height: 37px;
   position: fixed;
   top: 40px;
@@ -32,15 +32,15 @@ body {
 }
 
 .search {
-  background: #2493ff;
-  color: black;
+  background: #06adbc; /* Changed to match the navigation link color in the website design */
+  color: white; /* Changed to white to match the website design */
   height: 26px;
   outline: none;
   width: 100%;
   padding-left: 10px;
   transition: 0.3s;
   font-size: 15px;
-  border: 2px solid black;
+  border: 2px solid white; /* Changed to white to match the website design */
   border-radius: 25px;
   margin: 2px;
 }
@@ -52,7 +52,7 @@ body {
 .button {
   border: 0;
   font-size: 20px;
-  color: black;
+  color: white; /* Changed to white to match the website design */
   background: transparent;
   cursor: pointer;
   border-radius: 50%;
@@ -63,28 +63,16 @@ body {
   line-height: 26px;
 }
 
-#reload {
-  margin-right: 2.5px;
-  margin-left: 2.5px;
-}
-
-#forward {
-  margin-right: 2.5px;
-  margin-left: 2.5px;
-}
-
-#back {
-  margin-right: 2.5px;
-  margin-left: 5px;
-}
-
+#reload,
+#forward,
+#back,
 #home {
-  margin-right: 5px;
+  margin-right: 2.5px;
   margin-left: 2.5px;
 }
 
 ::placeholder {
-  color: black;
+  color: white; /* Changed to white to match the website design */
 }
 
 .search:focus::placeholder {
@@ -94,14 +82,14 @@ body {
 .navcontrols {
   display: flex;
   align-items: center;
-  background: #2493ff;
+  background: #06adbc; /* Changed to match the navigation link color in the website design */
   margin-bottom: 5px;
   height: 37px;
 }
 
 .morebtn {
-  background: #2493ff;
-  color: black;
+  background: #06adbc; /* Changed to match the navigation link color in the website design */
+  color: white; /* Changed to white to match the website design */
   height: 37px;
   outline: none;
   border: none;
@@ -116,7 +104,7 @@ body {
   position: fixed;
   top: 82px;
   right: 5px;
-  background: #2493ff;
+  background: #06adbc; /* Changed to match the navigation link color in the website design */
   width: 200px;
   height: 292px;
   z-index: 15;
@@ -124,22 +112,19 @@ body {
 }
 
 .moreitem {
-  color: black;
+  color: white; /* Changed to white to match the website design */
   padding: 5px;
   text-align: left;
   cursor: pointer;
 }
 
-.homemore {
-  border-radius: 5px 5px 0 0;
-}
-
+.homemore,
 .homeexit {
-  border-radius: 0 0 5px 5px;
+  border-radius: 5px;
 }
 
 .moreitem:hover {
-  background: #5db0ff;
+  background: #007bff; /* Changed to match the hover effect in the website design */
 }
 
 #tabs {
@@ -151,13 +136,13 @@ body {
 }
 
 .tab {
-  background: darkslategray;
+  background: #06adbc; /* Changed to match the navigation link color in the website design */
   margin: 5px;
   width: 200px;
   height: 30px;
-  color: #9ca1a7;
+  color: white; /* Changed to white to match the website design */
   line-height: 30px;
-  border-radius: 5px 5px 0 0;
+  border-radius: 5px;
   user-select: none;
   position: relative;
   overflow: hidden;
@@ -174,20 +159,20 @@ body {
   position: absolute;
   right: 0;
   border-radius: 0 5px 5px 0;
-  background: darkslategray;
+  background: #06adbc; /* Changed to match the navigation link color in the website design */
   font-size: 15px;
 }
 
 .newtab {
   user-select: none;
-  background: #2493ff;
+  background: #06adbc; /* Changed to match the navigation link color in the website design */
   margin: 5px;
   width: 25px;
   height: 25px;
   border-radius: 50%;
   cursor: pointer;
   border-style: initial;
-  color: black;
+  color: white; /* Changed to white to match the website design */
   flex-shrink: 0;
   font-size: 15px;
   line-height: 25px;
@@ -199,8 +184,8 @@ body {
 }
 
 .activetab {
-  background: #2493ff;
-  color: black;
+  background: #06adbc; /* Changed to match the navigation link color in the website design */
+  color: white; /* Changed to white to match the website design */
 }
 
 .tabtext {
