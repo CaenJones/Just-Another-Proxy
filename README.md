@@ -1,7 +1,7 @@
 # Ultrabrowse Selfhosted
 A seflhosted version of the Ultrabrowse proxy. It is still a work in progress, but currently has basic functionality. More updates will be added soon!
 
-![screenshot](https://user-images.githubusercontent.com/81875430/147287746-2e259094-cdb9-41ab-81f1-a35b7fef4c3e.png)
+![image](https://github.com/CaenJones/Ultrabrowse-Selfhosted/assets/131218155/3276326b-ff32-419b-9ed0-77445dabb0dd)
 
 ## How to Run
 
