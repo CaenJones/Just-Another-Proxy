@@ -1,5 +1,10 @@
 # Ultrabrowse Selfhosted
-A seflhosted version of the Ultrabrowse proxy. It is still a work in progress, but currently has basic functionality. More updates will be added soon!
+DISCLAIMER:
+<br>
+I AM NOT RESPONSIBLE FOR WHATEVER YOU DO WITH THIS PROGRAM. THIS PROGRAM IS CREATED FOR EDUCATIONAL REASONS ONLY
+<br>
+<br>
+This is a seflhosted version of the Ultrabrowse proxy. It is still a work in progress, but currently has basic functionality. More updates will be added soon!
 
 ![image](https://github.com/CaenJones/Ultrabrowse-Selfhosted/assets/131218155/3276326b-ff32-419b-9ed0-77445dabb0dd)
 
