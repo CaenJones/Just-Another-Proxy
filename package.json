@@ -1,5 +1,5 @@
 {
-  "name": "Ultrabrowse",
+  "name": "Just Another Proxy",
   "version": "1.0.0",
   "description": "selfhosted web proxy",
   "main": "app.js",
